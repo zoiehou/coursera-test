@@ -1,0 +1,103 @@
+body {
+	font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: Dosis, sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Dosis, sans-serif;
+  color: #000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  /*text-shadow: 1px 1px 1px #222;*/
+  margin-top: 0;
+  margin-bottom: 100px;
+  /*margin-left: -70px;*/
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: pink;
+}
+
+#nav-list li {
+	border: 1px solid #000;
+}
+
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #add8e6;
+}
+
+#nav-list a span {
+  font-size: 1.5em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid pink;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.category-title {
+	background-color: #add8e6;
+	margin-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+	.navbar-brand {
+  padding-top: 15px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-brand {
+  padding-top: 15px;
+	}
+}
+
+@media (max-width: 767px) {
+	#collapsable-nav {
+		background-color: #fff;
+		border: 1px solid #000;
+	}
+
+	.navbar-brand h1 { /* Restaurant name */
+	  font-family: Dosis, sans-serif;
+	  color: #000;
+	  font-size: 1.5em;
+	  text-transform: uppercase;
+	  font-weight: bolder;
+	  margin-top: 0;
+	  margin-bottom: 0;
+	  margin-left: 10px;
+	  line-height: .75;
+	  padding-bottom: 0;
+	}
+}
